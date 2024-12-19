@@ -33,12 +33,18 @@ ar = np.array([[1,2,5],
 print(ar.tolist())
 print(ar)
 
+
+# there are some basic function of numpy   ar.size    ar.nbytes    ar.argmax
+# ar.argmin   ar.argmax(aix=1)  ar.argmax(axi=0)  ar.argmin(axis=0)    ar.argmin(axis=1)
+# ar.argsort()
+
+
 # print(ar.sum(axis = 1))
 # ar.flat
 # print(ar)
 # ar.nbytes
 # print(ar.itemsize) 
 
-# for fg in ar.flat:
-    # print(fg)
+for fg in ar.flat:
+    print(fg)
 
