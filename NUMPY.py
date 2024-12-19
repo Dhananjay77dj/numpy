@@ -36,8 +36,9 @@ print(ar)
 
 # there are some basic function of numpy   ar.size    ar.nbytes    ar.argmax
 # ar.argmin   ar.argmax(aix=1)  ar.argmax(axi=0)  ar.argmin(axis=0)    ar.argmin(axis=1)
-# ar.argsort()
 
+# ar.argsort()
+# some new function       ar.max()  ar.min()
 
 # print(ar.sum(axis = 1))
 # ar.flat
